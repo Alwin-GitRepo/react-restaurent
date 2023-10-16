@@ -1,0 +1,36 @@
+                                                 RESTAURENT LISTING APP
+                                        ........................................
+
+1. create an application - npx create-react-app restaurent-listing-app
+2. cd restaurent-listing-appl
+3. code .
+4. run Application - npm start
+5. clear the unwanted codes
+6. choose a theme using bootswatch.com site and import it in index.html
+7. use fontawesome - copy link in index.html
+8. use google fonts - copy link in index.css - @import ..............
+9. install react bootstrap - npm install react-bootstrap bootstrap
+10. Component creation
+                   => Header
+                             -Header.jsx
+                             -Header.css
+                   => Footer
+                            -Footer.jsx
+                            -Footer.css
+                   => AllRest
+                            -AllRest.jsx
+                            -AllRest.css
+11. axios - npm i axios
+12. Restcard component for displaying the restaurent details as card format
+13. React Router dom
+                => installation - npm i react-router-dom 
+
+                <BrowserRouter></BrowserRouter> - To render full application routes
+                <Routes></Routes> - Used to hold multiple routes
+                <Route/> - Used for a single route
+14. <Link></Link> - Used to redirect one page to another
+15. Path parameter - its a value that is passed to the url 
+        => hook - useParams : It is common to use the value of URL parameters to determine what is displayed in the component that a 
+                              dynamic route renders
+        =>React Router provides a hook, useParams() for accessing the value of URL parameters. When called, useParams() returns an 
+          object that maps the names of URL Parameters to their values in the current URL.
